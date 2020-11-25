@@ -1,0 +1,100 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    box-sizing: border-box;
+    max-width: 350px;
+    width: 100%;
+    padding: 30px 30px 60px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border: 1px solid #cecece;
+}
+
+.card_image {
+    flex-shrink: 0;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.navbar {
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: #ededee;
+  }
+
+  .navbar li {
+    display: inline;
+    justify-content: space-around;
+  }
+
+  .navbar a {
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    color: #e35410;
+    padding: 40px 90px 40px 90px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-table;
+    width: 80px;
+  }
+
+  .navbar a:hover {
+    background-color: whitesmoke;
+  }
+
+  .card_button {
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    padding: 8px 40px;
+    border: none;
+    background-color: #ededee;
+    border-radius: 15px;
+    color: #4d4d4d;
+  }
+
+  .card_header {
+      font-family: 'Comfortaa', cursive;
+      font-size: 16px;
+      color:#e35410;
+      text-decoration: none;
+  }
+
+  .card_date {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #4d4d4d;
+
+  }
+
+  .card_text {
+      font-family: 'Forum', cursive;
+      font-size: 18px;
+      color: #4d4d4d;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .search {
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    display: inline;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    border: #4d4d4d;
+    border-radius: 15px;
+    padding: 8px 70px;
+    text-align: center;
+  }
